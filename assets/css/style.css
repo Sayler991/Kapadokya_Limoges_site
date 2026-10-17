@@ -259,3 +259,4 @@ input,textarea,select{background:#241912;color:var(--ink);border-color:var(--lin
 }
 .maison{background:linear-gradient(135deg,#4a2f1f,#3a2a20);color:var(--ink);border:1px solid rgba(232,119,31,.35)}.maison .mut{color:var(--mut)}
 .s2{color:#2a1d16}@media (max-width:900px){.gallery figcaption{font-size:.66rem;padding:.2rem .45rem;left:.4rem;right:auto;bottom:.4rem;max-width:calc(100% - .8rem)}}
+.s1{color:#2a1d16}
