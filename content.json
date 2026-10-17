@@ -1,0 +1,239 @@
+{
+ "version": 1,
+ "business": {
+  "name": "Kapadokya kebab",
+  "tagline": "Kebab turc à Limoges — 73 av. du Général Leclerc",
+  "instagram": [],
+  "main_branch": "limoges",
+  "rating": {
+   "value": "4,7",
+   "count": "397",
+   "source": "Google Maps",
+   "date": "17/10/2026"
+  }
+ },
+ "hero": {
+  "kicker": "Limoges · 73 av. du Général Leclerc · 4,7★ sur Google (397 avis)",
+  "title": "Le kebab *généreux* de l’avenue Leclerc.",
+  "tagline": "Kebab-frites, kefta-frites, panini-frites… 5,50 € sur le flyer. Composez votre commande en quelques touches, le restaurant vous rappelle pour confirmer."
+ },
+ "ordering": {
+  "open": true,
+  "delivery": true,
+  "closed_text": "La commande en ligne est momentanément fermée. Appelez le 05 87 21 83 61.",
+  "delivery_note": "Livraison : zone, délai et éventuels frais à confirmer par le restaurant au téléphone.",
+  "pickup_note": "Le restaurant vous appelle pour confirmer avant de lancer la préparation.",
+  "pending_note": "Les prix ne sont pas encore publiés en ligne : votre commande est envoyée comme demande, le restaurant vous rappelle avec le total."
+ },
+ "hours": {
+  "text": "Mar–dim : 11h30–14h30 et 17h30–22h00 (vendredi midi jusqu’à 15h00) · Fermé le lundi",
+  "note": "Horaires Google Maps / Restaurant Guru (oct. 2026). Le flyer du restaurant indique : du mardi au dimanche 11h30–15h00 et 17h30–22h00. À confirmer par téléphone.",
+  "days": [
+   [
+    "Lundi",
+    "Fermé"
+   ],
+   [
+    "Mardi",
+    "11:30–14:30 · 17:30–22:00"
+   ],
+   [
+    "Mercredi",
+    "11:30–14:30 · 17:30–22:00"
+   ],
+   [
+    "Jeudi",
+    "11:30–14:30 · 17:30–22:00"
+   ],
+   [
+    "Vendredi",
+    "11:30–15:00 · 17:30–22:00"
+   ],
+   [
+    "Samedi",
+    "11:30–14:30 · 17:30–22:00"
+   ],
+   [
+    "Dimanche",
+    "11:30–14:30 · 17:30–22:00"
+   ]
+  ]
+ },
+ "branches": [
+  {
+   "key": "limoges",
+   "name": "Kapadokya kebab",
+   "city": "Limoges",
+   "address": "73 av. du Général Leclerc, 87100 Limoges",
+   "phone": "05 87 21 83 61",
+   "phone_intl": "+33587218361",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Kapadokya+kebab+73+Av+du+General+Leclerc+87100+Limoges",
+   "hours": "Mar–dim 11h30–14h30 / 17h30–22h · fermé lundi",
+   "orders": true,
+   "main": true
+  }
+ ],
+ "menu": {
+  "currency": "€",
+  "note": "Prix affichés sur le flyer du restaurant (non daté) — le restaurant confirme le total au téléphone.",
+  "categories": [
+   {
+    "key": "sandwichs-frites",
+    "title": "Sandwichs-frites",
+    "desc": "Boisson + 1 €",
+    "items": [
+     {
+      "id": "kebab-frites",
+      "name": "Kebab-frites",
+      "desc": "Boisson + 1 €",
+      "price": "5,50",
+      "photo": "r-kebab",
+      "available": true,
+      "tag": "Le classique"
+     },
+     {
+      "id": "pita-frites",
+      "name": "Pita-frites",
+      "desc": "Boisson + 1 €",
+      "price": "5,50",
+      "photo": "galette",
+      "available": true
+     },
+     {
+      "id": "poulet-frites",
+      "name": "Poulet-frites",
+      "desc": "Boisson + 1 €",
+      "price": "5,50",
+      "photo": "kebab",
+      "available": true
+     },
+     {
+      "id": "kefta-frites",
+      "name": "Kefta-frites",
+      "desc": "Boisson + 1 €",
+      "price": "5,50",
+      "photo": "r-kefta",
+      "available": true
+     },
+     {
+      "id": "americain-frites",
+      "name": "Américain-frites",
+      "desc": "Boisson + 1 €",
+      "price": "5,50",
+      "photo": "assiette",
+      "available": true
+     },
+     {
+      "id": "panini-frites",
+      "name": "Panini-frites",
+      "desc": "Boisson + 1 €",
+      "price": "5,50",
+      "photo": "galette",
+      "available": true
+     }
+    ]
+   },
+   {
+    "key": "boissons",
+    "title": "Boisson",
+    "desc": "",
+    "items": [
+     {
+      "id": "boisson",
+      "name": "Boisson (avec un sandwich-frites)",
+      "desc": "« + Boisson 1 € » sur le flyer.",
+      "price": "1,00",
+      "photo": "boissons",
+      "available": true
+     }
+    ]
+   }
+  ]
+ },
+ "reviews": {
+  "source": "Avis Google Maps et Restaurant Guru — Kapadokya kebab, 73 av. du Général Leclerc, Limoges (relevés le 17/10/2026)",
+  "items": [
+   {
+    "author": "Sabine",
+    "when": "mai 2026",
+    "site": "Google",
+    "text": "C'est le seul kebab où je vais quand je suis à Limoges. J'y vais depuis des années et c'est toujours aussi excellent. Le propriétaire et le personnel sont très accueillants et sympathiques. Les portions sont généreuses, délicieuses et d'un excellent rapport qualité-prix. Les ingrédients sont toujours frais. Je recommande l'assiette de kebab avec sauce algérienne et harissa (pour ceux qui aiment les plats épicés). L'hygiène est irréprochable. J'ai hâte d'y retourner."
+   },
+   {
+    "author": "Igor",
+    "when": "février 2026",
+    "site": "Google",
+    "text": "Un kebab authentique et généreux qui se classe parmi les meilleurs de Limoges (et alentours). Le propriétaire est accueillant et respectueux de la clientèle (la propreté est irréprochable) Je recommande"
+   },
+   {
+    "author": "Arthur Castanie",
+    "when": "septembre 2026",
+    "site": "Google",
+    "text": "Certainement l'un des meilleurs kebab de Limoges ! La qualité et la quantité sont au rendez-vous le personnel est très accueillant et sympathique."
+   },
+   {
+    "author": "Karen",
+    "when": "il y a environ 2 ans",
+    "site": "Restaurant Guru",
+    "text": "Bonsoir, je recommande restaurant très propre. Tellement bien chargé j'ai même pas réussi à terminer. Merci aux nouvelles gérants."
+   }
+  ]
+ },
+ "about": {
+  "title": "Généreux, propre, *souriant* : ce que disent les clients.",
+  "text": "Kapadokya kebab sert Limoges au 73 avenue du Général Leclerc. Sur Google, les clients notent l’établissement 4,7/5 (397 avis) et reviennent sur les mêmes mots : l’assiette, l’hygiène, l’accueil et le sourire.",
+  "quote": "Les portions sont généreuses, délicieuses et d'un excellent rapport qualité-prix."
+ },
+ "photos": {
+  "hero": {
+   "label": "Grande photo d’accueil",
+   "src": "",
+   "alt": "Sandwich kebab et frites servis chez Kapadokya Limoges"
+  },
+  "spit": {
+   "label": "Broche",
+   "src": "",
+   "alt": "Broches de kebab (illustration)"
+  },
+  "kebab": {
+   "label": "Sandwich kebab",
+   "src": "",
+   "alt": "Sandwich kebab garni de crudités (illustration)"
+  },
+  "kefta": {
+   "label": "Kefta",
+   "src": "",
+   "alt": "Kefta et frites (illustration)"
+  },
+  "galette": {
+   "label": "Tacos / galette",
+   "src": "",
+   "alt": "Galette roulée garnie (illustration)"
+  },
+  "assiette": {
+   "label": "Assiette",
+   "src": "",
+   "alt": "Sandwich et frites (illustration)"
+  },
+  "frites": {
+   "label": "Frites",
+   "src": "",
+   "alt": "Frites (illustration)"
+  },
+  "boissons": {
+   "label": "Boissons",
+   "src": "",
+   "alt": "Canettes fraîches (illustration)"
+  },
+  "r-kebab": {
+   "label": "Kebab-frites (photo réelle)",
+   "src": "",
+   "alt": "Kebab dans le pain avec frites, chez Kapadokya Limoges"
+  },
+  "r-kefta": {
+   "label": "Kefta (photo réelle)",
+   "src": "",
+   "alt": "Assiettes de kefta avec crudités, chez Kapadokya Limoges"
+  }
+ }
+}
