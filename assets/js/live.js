@@ -22,7 +22,8 @@
   function photo(key, size) {
     var p = DATA && DATA.photos && DATA.photos[key];
     if (p && p.src) return { src: p.src, srcset: '', alt: p.alt || '' };
-    return { src: 'assets/img/' + key + '-' + (size || 800) + '.webp', srcset: 'assets/img/' + key + '-480.webp 480w, assets/img/' + key + '-800.webp 800w', alt: (p && p.alt) || '' };
+    var v = (p && p.v) ? '?v=' + p.v : '';
+    return { src: 'assets/img/' + key + '-' + (size || 800) + '.webp' + v, srcset: 'assets/img/' + key + '-480.webp' + v + ' 480w, assets/img/' + key + '-800.webp' + v + ' 800w', alt: (p && p.alt) || '' };
   }
   function items() { var out = []; ((DATA && DATA.menu && DATA.menu.categories) || []).forEach(function (c) { (c.items || []).forEach(function (it) { out.push(it); }); }); return out; }
   function item(id) { return items().filter(function (x) { return x.id === id; })[0]; }
@@ -66,7 +67,7 @@
         var p = photo(it.photo || 'hero'), q = qty(it.id), ok = orderable(it), custom = !!(DATA.photos && DATA.photos[it.photo] && DATA.photos[it.photo].src);
         html += '<article class="item' + (q ? ' has' : '') + '" data-id="' + esc(it.id) + '" style="--i:' + (i++) + '">' +
           '<div class="pic"><img loading="lazy" src="' + esc(p.src) + '"' + (p.srcset ? ' srcset="' + p.srcset + '" sizes="(max-width:640px) 50vw, 320px"' : '') + ' alt="' + esc(p.alt) + '" width="800" height="600">' +
-          (it.tag ? '<span class="tag">' + esc(it.tag) + '</span>' : '') + (custom ? '' : /^r-/.test(it.photo || '') ? '<span class="cap real">Photo réelle</span>' : '<span class="cap">Illustration</span>') + '</div>' +
+          (it.tag ? '<span class="tag">' + esc(it.tag) + '</span>' : '') + (custom ? '' : (/^r-/.test(it.photo || '') || !!(DATA.photos && DATA.photos[it.photo] && DATA.photos[it.photo].real)) ? '<span class="cap real">Photo réelle</span>' : '<span class="cap">Illustration</span>') + '</div>' +
           '<div class="body"><h4>' + esc(it.name) + '</h4>' + (it.desc ? '<p class="desc">' + esc(it.desc) + '</p>' : '<p class="desc"></p>') +
           '<div class="row">' + (priced(it) ? '<span class="price">' + fmt(cents(it.price)) + '</span>' : '<span class="price tbd">Prix à venir</span>') + (ok && open ? stepperHtml(it, q) : '<a class="btn btn-line" href="' + tel(mainBranch()) + '">Appeler</a>') + '</div></div></article>';
       });

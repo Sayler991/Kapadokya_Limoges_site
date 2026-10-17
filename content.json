@@ -206,9 +206,11 @@
    "alt": "Kefta et frites (illustration)"
   },
   "galette": {
-   "label": "Tacos / galette",
+   "label": "Galette grillée-frites (photo réelle)",
    "src": "",
-   "alt": "Galette roulée garnie (illustration)"
+   "alt": "Galette grillée coupée en deux avec frites, chez Kapadokya Limoges",
+   "real": true,
+   "v": "2"
   },
   "assiette": {
    "label": "Assiette",

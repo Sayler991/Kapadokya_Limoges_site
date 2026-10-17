@@ -32,11 +32,11 @@ Maquette réalisée par Younes (web designer). **Site non officiel** (« Maquett
 | r-kefta | rg_37 |
 | r-salle | rg_32 |
 | r-comptoir | rg_54 |
+| galette (cartes Pita-frites, Panini-frites + galerie) | rg_49 (partie droite : galette grillée et frites ; mascotte hors cadre) — remplace depuis la v3 l’illustration Pexels 17200357 |
 
 **Illustrations — licence Pexels** (usage libre, attribution facultative), légendées « Illustration » :
 | clé | auteur | lien |
 |---|---|---|
-| galette (Pita / Panini) | (Pexels) | https://www.pexels.com/photo/delicious-kebab-with-meat-lettuce-tomato-red-onion-and-sauce-with-french-fries-and-sauce-17200357/ |
 | assiette (Américain-frites) | Shawkat Galib | https://www.pexels.com/photo/doner-fries-and-pide-behind-15202777/ |
 | frites | Vinícius Caricatte | https://www.pexels.com/photo/close-up-photo-of-french-fries-on-white-paper-12946719/ |
 | kebab (Poulet-frites) | Valeria Boltneva | https://www.pexels.com/photo/doner-with-meat-and-vegetables-18330009/ |
